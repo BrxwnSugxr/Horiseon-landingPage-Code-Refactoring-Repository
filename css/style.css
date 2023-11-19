@@ -1,25 +1,32 @@
 /* Universal Selector*/
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* Elements Selector */
+/* body style */
+
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
 
+/* Links style */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* paragraph style */
 p {
   font-size: 16px;
 }
 
+/* Class Selectors */
 
+/* header styles */
 .header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -54,8 +61,7 @@ p {
   margin-left: 25px;
 }
 
-
-
+/* hero section */
 .hero {
   height: 800px;
   width: 100%;
@@ -65,6 +71,7 @@ p {
   background-position: center;
 }
 
+/* float style */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -81,6 +88,7 @@ p {
   margin-left: 20px;
 }
 
+/* content and benefits sections */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -140,6 +148,7 @@ p {
   max-width: 150px;
 }
 
+/* search engine optimization, online reputation mangement, social media marketing section */
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -194,9 +203,7 @@ p {
   font-size: 36px;
 }
 
-
-/* Footer Section */
-
+/* Footer style */
 .footer {
   padding: 30px;
   clear: both;
