@@ -8,9 +8,7 @@ The project involves refactoring an existing website for a marketing agency to e
 - [Screenshot](#screenshot)
 - [Deployed Application](#deployed-application)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Description
 
