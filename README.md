@@ -20,8 +20,8 @@ The primary purpose of this project is to make the website more accessible for u
 #### Features and Changes:
 Semantic HTML Elements:
 
-The HTML structure has been enhanced by incorporating semantic elements > (<section>, <figure>, <aside>) for better clarity and accessibility.
-The use of _<h2>_ for headings within sections contributes to a structured hierarchy.
+The HTML structure has been enhanced by incorporating semantic elements > (< section >, < figure >, < aside >) for better clarity and accessibility.
+The use of _< h2 >_ for headings within sections contributes to a structured hierarchy.
 
 #### Comments:
 Detailed comments have been added throughout the HTML and CSS code to provide clarity and document the purpose of each section. This practice aids in code understanding and future maintenance.
@@ -30,10 +30,10 @@ Detailed comments have been added throughout the HTML and CSS code to provide cl
 CSS selectors and properties have been consolidated and organized, following a more semantic and efficient structure. This improves code readability and maintenance.
 
 #### Universal Selector Usage:
-The universal selector _(*)_ is utilized to apply common styling properties, contributing to a consistent styling approach throughout the document.
+The universal selector _( * )_ is utilized to apply common styling properties, contributing to a consistent styling approach throughout the document.
 
 #### Link Styling:
-Links _(<a>)_ are styled to have a consistent appearance (color and text-decoration), ensuring visibility and accessibility.
+Links _(< a >)_ are styled to have a consistent appearance (color and text-decoration), ensuring visibility and accessibility.
 
 #### Background Image Optimization:
 The hero section includes a background image with specified styling attributes, enhancing the visual appeal of the website.
