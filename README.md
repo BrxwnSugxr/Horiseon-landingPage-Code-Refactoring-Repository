@@ -21,7 +21,7 @@ The primary purpose of this project is to make the website more accessible for u
 Semantic HTML Elements:
 
 The HTML structure has been enhanced by incorporating semantic elements _(< section >, < figure >, < aside >)_ for better clarity and accessibility.
-The use of _<h2>_ for headings within sections contributes to a structured hierarchy.
+The use of _< h2 >_ for headings within sections contributes to a structured hierarchy.
 
 #### Comments:
 Detailed comments have been added throughout the HTML and CSS code to provide clarity and document the purpose of each section. This practice aids in code understanding and future maintenance.
