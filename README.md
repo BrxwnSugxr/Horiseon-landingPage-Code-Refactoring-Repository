@@ -30,10 +30,10 @@ Detailed comments have been added throughout the HTML and CSS code to provide cl
 CSS selectors and properties have been consolidated and organized, following a more semantic and efficient structure. This improves code readability and maintenance.
 
 #### Universal Selector Usage:
-The universal selector _(*)_ is utilized to apply common styling properties, contributing to a consistent styling approach throughout the document.
+The universal selector _( * )_ is utilized to apply common styling properties, contributing to a consistent styling approach throughout the document.
 
 #### Link Styling:
-Links _(<a>)_ are styled to have a consistent appearance (color and text-decoration), ensuring visibility and accessibility.
+Links _(< a >)_ are styled to have a consistent appearance (color and text-decoration), ensuring visibility and accessibility.
 
 #### Background Image Optimization:
 The hero section includes a background image with specified styling attributes, enhancing the visual appeal of the website.
