@@ -20,7 +20,7 @@ The primary purpose of this project is to make the website more accessible for u
 #### Features and Changes:
 Semantic HTML Elements:
 
-The HTML structure has been enhanced by incorporating semantic elements >(<section>, <figure>, <aside>) for better clarity and accessibility.
+The HTML structure has been enhanced by incorporating semantic elements > (<section>, <figure>, <aside>) for better clarity and accessibility.
 The use of _<h2>_ for headings within sections contributes to a structured hierarchy.
 
 #### Comments:
