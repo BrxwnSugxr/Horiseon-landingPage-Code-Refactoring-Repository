@@ -20,32 +20,32 @@ The primary purpose of this project is to make the website more accessible for u
 
 **Semantic HTML Elements:**
 
-The HTML structure has been enhanced by incorporating semantic elements **(< section >, < figure >, < aside >)** for better clarity and accessibility.
+> The HTML structure has been enhanced by incorporating semantic elements **(< section >, < figure >, < aside >)** for better clarity and accessibility.
 The use of **< h2 >** for headings within sections contributes to a structured hierarchy.
 
 **Comments:**
 
-Detailed comments have been added throughout the HTML and CSS code to provide clarity and document the purpose of each section. This practice aids in code understanding and future maintenance.
+> Detailed comments have been added throughout the HTML and CSS code to provide clarity and document the purpose of each section. This practice aids in code understanding and future maintenance.
 
 **CSS Consolidation:**
 
-CSS selectors and properties have been consolidated and organized, following a more semantic and efficient structure. This improves code readability and maintenance.
+> CSS selectors and properties have been consolidated and organized, following a more semantic and efficient structure. This improves code readability and maintenance.
 
 **Universal Selector Usage:**
 
-The universal selector **( \* )** is utilized to apply common styling properties, contributing to a consistent styling approach throughout the document.
+> The universal selector **( \* )** is utilized to apply common styling properties, contributing to a consistent styling approach throughout the document.
 
 **Link Styling:**
 
-Links **(< a >)** are styled to have a consistent appearance (color and text-decoration), ensuring visibility and accessibility.
+> Links **(< a >)** are styled to have a consistent appearance (color and text-decoration), ensuring visibility and accessibility.
 
 **Background Image Optimization:**
 
-The hero section includes a background image with specified styling attributes, enhancing the visual appeal of the website.
+> The hero section includes a background image with specified styling attributes, enhancing the visual appeal of the website.
 
 **Responsive Design:**
 
-While not explicitly mentioned, the use of semantic HTML and CSS best practices sets a foundation for potential future implementation of responsive design principles.
+> While not explicitly mentioned, the use of semantic HTML and CSS best practices sets a foundation for potential future implementation of responsive design principles.
 
 ### Additional Considerations:
 
@@ -53,7 +53,7 @@ While not explicitly mentioned, the use of semantic HTML and CSS best practices 
 
 **Business Value:** Improved accessibility positively impacts user experience and expands the potential audience, aligning with the marketing agency's goals.
 
-This project is a typical example of a refactoring task that developers might encounter in a real-world scenario, where existing code needs improvement to meet specific standards or implement new technologies.
+> This project is a typical example of a refactoring task that developers might encounter in a real-world scenario, where existing code needs improvement to meet specific standards or implement new technologies.
 
 ## User Story
 
