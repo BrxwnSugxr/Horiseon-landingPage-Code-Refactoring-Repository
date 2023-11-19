@@ -14,7 +14,41 @@ The project involves refactoring an existing website for a marketing agency to e
 
 ## Description
 
-Provide a detailed description of your project. Explain its purpose, features, and any other relevant information.
+### Purpose:
+The primary purpose of this project is to make the website more accessible for users with disabilities while also optimizing it for search engines. Accessibility is crucial for ensuring that individuals with diverse needs can access and navigate the website using assistive technologies. Moreover, by improving search engine optimization (SEO), the website is likely to rank higher in search engine results, increasing its visibility and reach.
+
+#### Features and Changes:
+Semantic HTML Elements:
+
+The HTML structure has been enhanced by incorporating semantic elements _(<section>, <figure>, <aside>)_ for better clarity and accessibility.
+The use of _<h2>_ for headings within sections contributes to a structured hierarchy.
+
+#### Comments:
+Detailed comments have been added throughout the HTML and CSS code to provide clarity and document the purpose of each section. This practice aids in code understanding and future maintenance.
+
+#### CSS Consolidation:
+CSS selectors and properties have been consolidated and organized, following a more semantic and efficient structure. This improves code readability and maintenance.
+
+#### Universal Selector Usage:
+The universal selector _(*)_ is utilized to apply common styling properties, contributing to a consistent styling approach throughout the document.
+
+#### Link Styling:
+Links _(<a>)_ are styled to have a consistent appearance (color and text-decoration), ensuring visibility and accessibility.
+
+#### Background Image Optimization:
+The hero section includes a background image with specified styling attributes, enhancing the visual appeal of the website.
+
+#### Responsive Design:
+While not explicitly mentioned, the use of semantic HTML and CSS best practices sets a foundation for potential future implementation of responsive design principles.
+
+### Additional Considerations:
+#### Maintainability:  
+The refactoring aims not only to meet the specified accessibility criteria but also to leave the codebase in a cleaner and more maintainable state.
+#### Business Value: 
+Improved accessibility positively impacts user experience and expands the potential audience, aligning with the marketing agency's goals.
+
+
+This project is a typical example of a refactoring task that developers might encounter in a real-world scenario, where existing code needs improvement to meet specific standards or implement new technologies.
 
 ## User Story
 
@@ -34,15 +68,15 @@ Include a screenshot or multiple screenshots of your application to give users a
 
 Link to the live deployment of your application. Make it easy for users to access and explore your project.
 
-[Deployed Application](https://your-deployed-app-url.com)
+[Deployed Application](https://brxwnsugxr.github.io/Horiseon-landingPage-Code-Refactoring-Repository/)
 
 ## Installation
 
-Provide instructions on how to install and set up your project locally. Include any dependencies or prerequisites.
+Two methods of cloning. 
 
 ```bash
 # Example installation steps
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/BrxwnSugxr/Horiseon-landingPage-Code-Refactoring-Repository.git
+git clone git@github.com:BrxwnSugxr/Horiseon-landingPage-Code-Refactoring-Repository.git
 cd your-repository
-npm install
 ```
