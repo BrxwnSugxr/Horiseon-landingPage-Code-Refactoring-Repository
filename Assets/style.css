@@ -1,3 +1,16 @@
+:root {
+  /* typogrpah theme */
+  --font-stack: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --font-stack2: 'Trebuchet MS ', ' Lucida Sans Unicode ', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  /* colour theme */
+  --colour-white: #ffffff;
+  --colour-whitecream: #d9dcd6;
+  --colour-darkertoneblue: #0072bb;
+  --colour-lightblue: #2589bd;
+  --colour-greyblue: #2a607c;
+}
+
 /* Universal Selector */
 * {
   box-sizing: border-box;
@@ -7,15 +20,14 @@
 
 /* Element Selectors */
 body {
-  background-color: #d9dcd6;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: var(--colour-whitecream);
+  font-family: var(--font-stack);
 }
 
 header {
-  background-color: #2a607c;
-  color: #ffffff;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  background-color: var(--colour-greyblue);
+  color: var(--colour-white);
+  font-family: var(--font-stack2);
   padding: 20px;
 }
 
@@ -26,7 +38,7 @@ h1 {
 
 nav {
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: var(--font-stack);
   font-size: 20px;
   margin-right: 20px;
   padding-top: 15px;
@@ -42,7 +54,7 @@ li {
 }
 
 a {
-  color: #ffffff;
+  color: var(--colour-white);
   text-decoration: none;
 }
 
@@ -60,15 +72,14 @@ h3 {
   text-align: center;
 }
 
-/* Changed footer's heading to h4 from h2 to differentiate it from the content's h2 */
+/* Change footer size, due to incorrect page styling strucutre */
 h4 {
   font-size: 20px;
 }
 
 footer {
   clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: var(--font-stack2);
   padding: 30px;
   text-align: center;
 }
@@ -93,20 +104,20 @@ footer {
   width: 75%;
 }
 
-.float-left {
+.img-section-floatleft {
   float: left;
   margin-right: 25px;
   max-height: 200px;
 }
 
-.float-right {
+.img-section-floatright {
   float: right;
   margin-left: 25px;
   max-height: 200px;
 }
 
 .benefits {
-  background-color: #2589bd;
+  background-color: var(--colour-lightblue);
   clear: both;
   float: right;
   height: 100%;
@@ -117,8 +128,8 @@ footer {
 
 /* CONTENT SECTIONS */
 .content section {
-  background-color: #0072bb;
-  color: #ffffff;
+  background-color: var(--colour-darkertoneblue);
+  color: var(--colour-white);
   height: 300px;
   margin-bottom: 20px;
   padding: 50px;
@@ -126,7 +137,7 @@ footer {
 
 /* BENEFITS SECTIONS */
 .benefits section {
-  color: #ffffff;
+  color: var(--colour-white);
   margin-bottom: 32px;
 }
 
