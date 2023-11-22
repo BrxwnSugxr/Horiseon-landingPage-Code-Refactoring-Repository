@@ -15,17 +15,64 @@
 /* body style */
 body {
   background-color: var(--background-colour);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  background-color: var(--header-colour);
+  color: var(--link-colour);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
 }
 
 /* Links style */
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+nav {
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin-right: 20px;
+  padding-top: 15px;
+}
+
+ul {
+  list-style-type: nones;
+}
+
+li {
+  display: inline-block;
+  margin-left: 25px;
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
 a {
   color: var(--link-colour);
   text-decoration: none;
+}
+h3 {
+  font-size: 10px;
+  text-align: center;
+}
+h4 {
+  font-size: 20px;
 }
 
 /* paragraph style */
 p {
   font-size: 16px;
+}
+
+footer{
+  clear: both;
+  font-family
 }
 
 /* Class Selectors */
@@ -70,7 +117,7 @@ p {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url('../images/digital-marketing-meeting.jpg');
+  background-image: url('/Week1/Assets/images/digital-marketing-meeting.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -100,7 +147,7 @@ p {
   background-color: #2589bd;
 }
 
-.benfit section {
+.benfits section {
   margin-bottom: 32px;
   color: var(--link-colour);
 }
