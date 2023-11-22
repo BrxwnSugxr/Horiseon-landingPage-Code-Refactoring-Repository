@@ -100,9 +100,7 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.benfit section {
   margin-bottom: 32px;
   color: var(--link-colour);
 }
