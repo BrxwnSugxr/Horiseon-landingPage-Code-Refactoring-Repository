@@ -1,3 +1,9 @@
+:root {
+  --background-colour: #d9dcd6;
+  --link-colour: #ffffff;
+  --header-colour: #2a607c;
+  --pannel-colour: #0072bb;
+}
 /* Universal Selector*/
 * {
   box-sizing: border-box;
@@ -8,12 +14,12 @@
 /* Elements Selector */
 /* body style */
 body {
-  background-color: #d9dcd6;
+  background-color: var(--background-colour);
 }
 
 /* Links style */
 a {
-  color: #ffffff;
+  color: var(--link-colour);
   text-decoration: none;
 }
 
@@ -29,8 +35,8 @@ p {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  background-color: #2a607c;
-  color: #ffffff;
+  background-color: var(--header-colour);
+  color: var(--link-colour);
 }
 
 .header h1 {
@@ -39,7 +45,7 @@ p {
 }
 
 .header h1 .seo {
-  color: #d9dcd6;
+  color: var(--background-colour);
 }
 
 .header div {
@@ -70,14 +76,10 @@ p {
 }
 
 /* float style */
-.float-left {
+.float-left,
+.float-right {
   float: left;
   margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
 }
 
 .content {
@@ -98,48 +100,22 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
   margin-bottom: 32px;
-  color: #ffffff;
+  color: var(--link-colour);
 }
 
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
   display: block;
   margin: 10px auto;
@@ -147,55 +123,25 @@ p {
 }
 
 /* search engine optimization, online reputation mangement, social media marketing section */
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  background-color: var(--pannel-colour);
+  color: var(--link-colour);
 }
 
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
   max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
