@@ -36,6 +36,7 @@ h1 {
   font-size: 48px;
 }
 
+/* nav */
 nav {
   float: right;
   font-family: var(--font-stack);
@@ -72,16 +73,16 @@ h3 {
   text-align: center;
 }
 
-/* Change footer size, due to incorrect page styling strucutre */
-h4 {
-  font-size: 20px;
-}
-
+/* footer */
 footer {
   clear: both;
   font-family: var(--font-stack2);
   padding: 30px;
   text-align: center;
+}
+/* Change footer size, due to incorrect page styling strucutre */
+h4 {
+  font-size: 20px;
 }
 
 /* Class Selectors */
@@ -126,7 +127,7 @@ footer {
   width: 20%;
 }
 
-/* CONTENT SECTIONS */
+/* content section */
 .content section {
   background-color: var(--colour-darkertoneblue);
   color: var(--colour-white);
@@ -135,7 +136,7 @@ footer {
   padding: 50px;
 }
 
-/* BENEFITS SECTIONS */
+/* benefits section */
 .benefits section {
   color: var(--colour-white);
   margin-bottom: 32px;
@@ -148,6 +149,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    float: none;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  li {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
   .content {
     display: block;
     width: 100%;
