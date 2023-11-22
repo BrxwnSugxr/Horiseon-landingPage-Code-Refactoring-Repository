@@ -90,7 +90,7 @@ footer {
 }
 
 .hero {
-  background-image: url('./images/digital-marketing-meeting.jpg');
+  background-image: url('../images/digital-marketing-meeting.jpg');
   background-position: center;
   background-size: cover;
   height: 800px;
