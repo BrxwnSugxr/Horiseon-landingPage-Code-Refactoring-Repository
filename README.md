@@ -9,7 +9,6 @@ The project involves refactoring an existing website for a marketing agency to e
 - [Deployed Application](#deployed-application)
 - [Installation](#installation)
 
-
 ## Description
 
 ### Purpose:
@@ -21,7 +20,7 @@ The primary purpose of this project is to make the website more accessible for u
 **Semantic HTML Elements:**
 
 > The HTML structure has been enhanced by incorporating semantic elements **(< section >, < figure >, < aside >)** for better clarity and accessibility.
-The use of **< h2 >** for headings within sections contributes to a structured hierarchy.
+> The use of **< h2 >** for headings within sections contributes to a structured hierarchy.
 
 **Comments:**
 
@@ -67,7 +66,7 @@ SO THAT our own site is optimized for search engines
 
 Include a screenshot or multiple screenshots of your application to give users a visual representation of your project.
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/images/01-html-css-git-homework-demo.png)
 
 ## Deployed Application
 
