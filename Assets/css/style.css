@@ -45,11 +45,11 @@ nav {
   padding-top: 15px;
 }
 
-ul {
+nav ul {
   list-style-type: none;
 }
 
-li {
+nav li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -73,6 +73,11 @@ h3 {
   text-align: center;
 }
 
+/* Change footer size, due to incorrect page styling strucutre */
+h4 {
+  font-size: 20px;
+}
+
 /* footer */
 footer {
   clear: both;
@@ -80,18 +85,14 @@ footer {
   padding: 30px;
   text-align: center;
 }
-/* Change footer size, due to incorrect page styling strucutre */
-h4 {
-  font-size: 20px;
-}
 
 /* Class Selectors */
 .seo {
-  color: #d9dcd6;
+  color: var(--colour-whitecream);
 }
 
 .hero {
-  background-image: url('../images/digital-marketing-meeting.jpg');
+  background-image: url('/Week1/Assets/images/digital-marketing-meeting.jpg'); 
   background-position: center;
   background-size: cover;
   height: 800px;
@@ -105,16 +106,13 @@ h4 {
   width: 75%;
 }
 
-.img-section-floatleft {
-  float: left;
-  margin-right: 25px;
-  max-height: 200px;
-}
-
-.img-section-floatright {
-  float: right;
-  margin-left: 25px;
-  max-height: 200px;
+/* content section */
+.content section {
+  background-color: var(--colour-darkertoneblue);
+  color: var(--colour-white);
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 50px;
 }
 
 .benefits {
@@ -127,13 +125,16 @@ h4 {
   width: 20%;
 }
 
-/* content section */
-.content section {
-  background-color: var(--colour-darkertoneblue);
-  color: var(--colour-white);
-  height: 300px;
-  margin-bottom: 20px;
-  padding: 50px;
+.img-section-floatleft {
+  float: left;
+  margin-right: 25px;
+  max-height: 200px;
+}
+
+.img-section-floatright {
+  float: right;
+  margin-left: 25px;
+  max-height: 200px;
 }
 
 /* benefits section */
